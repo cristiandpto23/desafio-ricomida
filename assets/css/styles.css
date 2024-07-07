@@ -1,0 +1,109 @@
+
+
+/* Generales */
+.dark-section {
+    background-color: #373A3C;
+    color: white;
+
+}
+.light-section {
+    background-color: #FFFFFF;
+}
+
+
+/* Navbar */
+.navbar {
+    height: 75px;
+    width: 100%;
+    align-self: center;
+    color: #FFFFFF;
+}
+.navbar-brand h2, .footer-brand {
+    color: #FFFFFF;
+    font-family: 'Lobster', cursive;
+    font-size: 37px;
+    font-weight: 400;
+    
+}
+.nav-link {
+    color: #FFFFFF;
+    font-family: "Cabin", sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+}
+.navbar-toggler {
+    color: #777777 !important;
+    border: 1px solid #FFFFFF80 !important;
+
+}
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+/* Header */ 
+.header__title-container {
+    font-family: "Cabin", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Carousel */
+.carousel-item img {
+    width: 24%;
+    /*height: 170px;*/
+} 
+.carousel-indicators {
+    bottom: -55px;
+    /*ackground-color: black;*/
+}
+.carousel-indicators button{
+    width: 15px !important;
+    height: 15px !important;
+    border-radius: 50%;
+    background-color: #373A3C31 !important;
+}
+.carousel-indicators button.active {
+    background-color: #373A3C !important;
+}
+
+/* Ingredientes */
+.ingredients-masa__list li, .ingredients-salsa__list li {
+    list-style: none;
+    margin: 0 0 0 -32px;
+    font-family: 'Cabin', sans-serif;
+    font-size: 16px;
+    line-height: 2rem;
+}
+
+/* Recetas relacionadas */
+.recetas-relacionadas div h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+
+/* Footer */
+.newsletter {
+    height: 500px;
+    background-color: #DC3545;
+}
+.newsletter h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+.newsletter p {
+    font-size: 30px;
+    font-weight: 400;
+}
+.newsletter p span {
+    font-family: 'Lobster', cursive;
+}
+.btn {
+    font-family: 'Cabin', sans-serif;
+    height: 40px;
+    width: 233px;
+}
+.footer-logo {
+    height: 125px;
+    background-color: #373A3C;
+}
