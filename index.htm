@@ -50,7 +50,7 @@
         </div>
     </nav>
 
-    <main class="container">
+    <main class="container px-4">
         <!-- Hero -->
         <header class="container light-section py-4 header__container">
             <div class="row">
@@ -63,7 +63,10 @@
                     <h1 class="text-center text-md-start me-md-auto w-75">PIZZA AL ESTILO CHICAGO CON ESPINACAS Y CHAMPIÑONES</h1>
                     <hr class="border-3 border-dark opacity-75 w-100">
                     <p class="text-center text-md-start me-md-auto">110 MIN / 6 A 8 PORCIONES</p>
-                    <div class="text-center">BOTONES</div>
+                    <div class="me-md-auto d-flex gap-3">
+                        <button type="button" id="enviarCorreo" class="btn btn-outline-dark btn-header" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Presiona para enviar a tu correo">Enviar por correo</button>
+                        <button type="button" class="btn btn-outline-dark btn-header" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-title="Agrega esta receta a tus favoritos">Añadir a favoritos</button>
+                    </div>
                 </div>
             
 
@@ -105,7 +108,7 @@
             <div class="row"> 
                 <section class="ingredientes col-12 col-md-6">
                     <div class="d-inline-block">
-                        <h3>INGREDIENTES</h3>
+                        <h3 id="titulo-ingredientes">INGREDIENTES</h3>
                         <hr class="border-2 border-black opacity-75">
                     </div>
                     <!-- Ingredientes Masa -->
@@ -146,7 +149,7 @@
                 </section>
                 <section class="preparacion col-12 col-md-6">
                     <div class="d-inline-block">
-                        <h3>PREPARACIÓN</h3>
+                        <h3 id="titulo-preparacion">PREPARACIÓN</h3>
                         <hr class="border-2 border-black opacity-75">
                     </div>
                     <p>1. Para la masa, disolver la levadura y el azúcar en agua tibia en un bol grande. Dejar reposar 2 minutos. Agregar el aceite, la harina de maíz, sal y 400gr de harina. Mezclar bien. Amasar y agregar el resto de harina, la cantidad necesaria para tener una masa blanda. Poner en el mesón y amasar por 5 minutos o hasta tener una masa lisa y elástica (agregar harina en el mesón a medida que se va amasando para que la masa no se pegue) . Poner la masa en un bol aceitado, tapar con un paño de cocina limpio y dejar reposar hasta que la masa duplique su volumen (leudar). Golpear la masa para que baje y luego dejar leudar por 40 minutos adicionales.</p>
@@ -177,16 +180,16 @@
                         <div class="card px-0" style="width: 18rem;">
                             <img src="./assets/img/recipe-card-2.png" class="card-img-top" alt="Panqueques con manjar">
                             <div class="card-body">
-                                <h5 class="card-title">PANQUEQUES CON MANJAR Y CREMA</h5>
-                                <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus</p>
+                                <h5 class="card-title">TIRAMISÚ</h5>
+                                <p class="card-text">Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris, taciti</p>
 
                             </div>
                         </div>
                         <div class="card px-0" style="width: 18rem;">
                             <img src="./assets/img/recipe-card-3.png" class="card-img-top" alt="Panqueques con manjar">
                             <div class="card-body">
-                                <h5 class="card-title">PANQUEQUES CON MANJAR Y CREMA</h5>
-                                <p class="card-text">Mus enim elementum dignissim class eleifend justo, ut nunc magnis est vulputate nostra, blandit erat luctus</p>
+                                <h5 class="card-title">PLATEADA</h5>
+                                <p class="card-text">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac eleifend risus, urna auctor</p>
 
                             </div>
                         </div>
@@ -229,6 +232,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script src="./assets/js/script.js"></script>
 </body>
 </html>

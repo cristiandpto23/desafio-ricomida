@@ -46,6 +46,14 @@
     font-size: 20px;
     font-weight: 700;
 }
+.btn-header {
+    width: 145px !important;
+    height: 40px;
+    font-size: 16px;
+}
+.btn-outline-dark {
+    border-color: #DDDDDD;
+}
 
 /* Carousel */
 .carousel-item img {
@@ -74,6 +82,10 @@
     font-size: 16px;
     line-height: 2rem;
 }
+.dblClick--color {
+    color: red;
+}
+
 
 /* Recetas relacionadas */
 .recetas-relacionadas div h3 {
@@ -106,4 +118,17 @@
 .footer-logo {
     height: 125px;
     background-color: #373A3C;
+}
+
+@media screen and (max-width: 375px) {
+    .btn-header {
+        width: 120px !important;
+        height: 40px;
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .header__title-container h1, .recetas-relacionadas div h3 {
+        font-size: 25px;
+    }
 }
